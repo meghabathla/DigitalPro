@@ -1,37 +1,37 @@
 export const filters = [
   {
     value: "all",
-    src: "/public/store.webp",
+    src: "./store.webp",
     label: "All",
   },
   {
     value: "mobiles",
-    src: "/public/mobile.webp",
+    src: "./mobile.webp",
     label: "Mobiles",
   },
   {
     value: "laptops",
-    src: "/public/laptop.webp",
+    src: "./laptop.webp",
     label: "Laptops",
   },
   {
     value: "accessories",
-    src: "/public/earphones.webp",
+    src: "./earphones.webp",
     label: "Accessories",
   },
   {
     value: "watches",
-    src: "/public/watch.webp",
+    src: "./watch.webp",
     label: "Smart watches",
   },
   {
     value: "displays",
-    src: "/public/tv.webp",
+    src: "./tv.webp",
     label: "TV & Displays",
   },
   {
     value: "tablets",
-    src: "/public/tablet.webp",
+    src: "./tablet.webp",
     label: "Tablets",
   },
 ];
