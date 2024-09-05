@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-grey-0: #fff;
+  --color-grey-50: #f9fafb;
+  --color-grey-100: #f3f4f6;
+  --color-grey-200: #e5e7eb;
+  --color-grey-300: #d1d5db;
+  --color-grey-400: #9ca3af;
+  --color-grey-500: #6b7280;
+  --color-grey-600: #4b5563;
+  --color-grey-700: #374151;
+  --color-grey-800: #1f2937;
+  --color-grey-900: #111827;
+
+  --color-orange: #fb923c;
+  --color-red: #f05656;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Home Slider */
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 36rem;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: relative;
+  z-index: -1;
+}
+
+.swiper-slide div {
+  position: absolute;
+  left: 8.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.swiper-slide div p {
+  font-size: 6.2rem;
+  width: 70%;
+  line-height: 1.2;
+}
+
+.swiper-slide div span {
+  font-size: 2.4rem;
+}
+
+.swiper-slide div button {
+  background-color: var(--color-grey-900);
+  padding: 1rem 1.8rem;
+  border: none;
+  border-radius: 0.6rem;
+  align-self: flex-start;
+  color: var(--color-grey-0);
+  font-size: 1.6rem;
+  transition: all 0.2s;
+}
+
+.swiper-slide div button:hover {
+  background-color: var(--color-grey-800);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+  background-color: var(--color-grey-900);
+  border-radius: 0.6rem;
+  height: 3rem;
+  transition: all 0.2s;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: var(--color-grey-700);
+}
+
+.swiper-button-prev {
+  left: 1.6rem;
+}
+
+.swiper-button-next {
+  right: 1.6rem;
+}
+
+.heart {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  justify-self: end;
+  font-size: 2.4rem;
+  color: #db6d80;
+  cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 58%;
+  }
+}
