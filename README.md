@@ -46,7 +46,7 @@ OAuth: Google Login via Supabase
 
 - Shipping Address & Payment: Users can add their address and choose a payment option to complete the purchase.
 
-### Installation and Setup
+### Installation and setup
 
 Install the project dependencies using npm:
 
